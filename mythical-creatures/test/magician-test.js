@@ -28,19 +28,19 @@ it('', function() {
     assert.equal(magician2.assistant, false);
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Scott' });
 
     assert.equal(magician.favoriteAccessory, 'top hat');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Casey', clothing: 'cape' });
 
     assert.equal(magician.favoriteAccessory, 'cape')
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Scott' });
 
     var spell = magician.performIncantation('abracadabra');
